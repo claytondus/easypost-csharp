@@ -5,10 +5,10 @@
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <AssemblyName>Claytondus.EasyPost</AssemblyName>
     <PackageId>EasyPost.NetStandard</PackageId>
-    <Authors>EasyPost.NetStandard</Authors>
+    <Authors>Clayton Davis and EasyPost</Authors>
     <Company />
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Description>A .NET Standard port of easypost-csharp.  I am not affiliated with EasyPost in any way.</Description>
     <PackageProjectUrl>https://github.com/claytondus/easypost-csharp</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/claytondus/easypost-csharp/blob/master/LICENSE</PackageLicenseUrl>
@@ -28,7 +28,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <PackageReference Include="RestSharpSigned" Version="105.2.3" />
   </ItemGroup>
   
   <ItemGroup>
